@@ -1,0 +1,46 @@
+<div>
+  
+  <div class="text">
+    <h5 id="about">Hi I'm Jenny!</h5>
+    <p>I am a front end developer living in Norway. I started this journey to become a Front end developer after
+      working in hopitality for several years. I have a bachelors degree in Marketing and Management towards tourims 
+      industries. Which contributes to the marketing side of my front end journey. 
+    </p>
+    <p>My front end journey started at Noroff School of technology adn digital media, as an online student.
+      And is still being written! 
+      <br/>
+      I can't wait to show you more of my work as I continue to develop myself
+      and my skills.
+    </p>
+  </div>
+</div>
+
+<style lang="scss">
+  div{
+    margin: auto;
+    margin-top: var(--spacing-m);
+  }
+
+  .text{
+    background-color: var(--dark-secondary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h5{
+    font-size: var(--font-size-l);
+    text-align: center;
+  }
+
+  p{
+    font-size: var(--font-size-m);
+    max-width: 600px;
+    word-wrap: normal;
+    padding: var(--spacing-m);
+    margin: auto;
+  }
+
+
+</style>

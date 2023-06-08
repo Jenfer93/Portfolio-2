@@ -2,10 +2,10 @@
   <nav>
     <ul>
       <li>
-        <a class="button" href="https://www.linkedin.com/in/jenny-marie-feragen/">Linkedin</a>
+        <a class="button" href="#about">About me</a>
       </li>
       <li>
-        <a class="button" href="https://github.com/Jenfer93">GitHub</a>
+        <a class="button" href="#contact">Contact me</a>
       </li>
       <li >
         <a class="myWorkButton" href="#myWork">My work</a>
@@ -39,9 +39,5 @@ nav {
 ul {
   display: flex; 
   margin-right: var(--spacing-m)
-}
-
-li {
-  list-style: none;
 }
 </style>
