@@ -25,6 +25,16 @@ export const myWork = [
     page:"https://github.com/Fermain/-mollify"
   },
   {
+    title:"BidOnMe", 
+    descrition:"This was me semester project for the second year at Noroff."+ 
+    "The site is a Auction site for NorOff students" +
+    "This website is created using HTML, Bootstrap and JavaScript." +
+     "The content is received from a NorOff API.", 
+    img: bidonmeImg,
+    github: "https://github.com/Jenfer93/Semester-Project2", 
+    page:"https://regal-kheer-f50aa3.netlify.app/"
+  },
+  {
     title:"Wanderlust", 
     descrition:
     "This is my exam project for my first year."+
@@ -34,16 +44,6 @@ export const myWork = [
     img: wanderlustImg, 
     github: "https://github.com/Noroff-FEU-Assignments/project-exam-1-Jenfer93/blob/main/README.md", 
     page:"https://quiet-entremet-ea073a.netlify.app/"
-  },
-  {
-    title:"BidOnMe", 
-    descrition:"This was me semester project for the second year at Noroff."+ 
-    "The site is a Auction site for NorOff students" +
-    "This website is created using HTML, Bootstrap and JavaScript." +
-     "The content is received from a NorOff API.", 
-    img: bidonmeImg,
-    github: "https://github.com/Jenfer93/Semester-Project2", 
-    page:"https://regal-kheer-f50aa3.netlify.app/"
   },
   {
     title:"RainyDays", 

@@ -26,4 +26,17 @@ div {
     font-size: var(--font-size-xl);
   }
 
+@media only screen and (max-width: 600px){
+  div {
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-size: var(--font-size-xxl);
+  }
+
+  h2 {
+    font-style: var(--font-size-m);
+  }
+}
 </style>

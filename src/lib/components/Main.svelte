@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { myWork } from "../../myWork/myWork.js";
+  import { myWork } from "../myWork/myWork.js";
 </script>
 
 <div class="content-container">
@@ -39,30 +39,38 @@
     display: flex; 
     flex-wrap: wrap;
     max-width: 1000px;
+    justify-content: center;
     margin: auto;
+    gap: var(--spacing-m);
   }
 
   .img-container {
-    height: 250px;
-    width: 300px;
+    height: 300px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
   }
 
   .card {
     border: solid 0.5px var(--primary);
     width: 300px;
-    height: 500px;
-    padding: var(--spacing-xs);
+    height: 550px;
     display: flex;
+    flex: 1fr 1fr auto;
     flex-direction: column;
-    justify-content: space-around;
-    margin: var(--spacing-l);
+    justify-content:space-between;
     box-shadow: 6px -2px 20px -7px rgba(1,21,19,0.50);
     transition: ease 0.5s;
   }
 
   .card:hover {
     box-shadow: 6px -2px 20px -7px rgba(1,21,19,0.90);
+  }
+
+  @media only screen and (max-width: 600px){
+    .card{
+      margin: var(--spacing-s);
+    }
   }
 </style>
