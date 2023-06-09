@@ -12,7 +12,7 @@ export const myWork = [
     "A action house made with React, Bootstrap and Sass. Using a Noroff API as backend. "+
     "Main focus is the KISS method and styling", 
     img: auctionImg,
-    github: "https://github.com/Jenfer93/Semester-Project2/blob/main/README.md", 
+    github: "https://github.com/Jenfer93/framework-react-ca/blob/master/README.md", 
     page:"https://deft-fairy-0fd79d.netlify.app/"
   },
   {
@@ -21,7 +21,7 @@ export const myWork = [
     "and callouts."+
     "The project is a LMS system build with SvelteKit, Typescript, Tailwind, Skeleton and some Sass", 
     img: mollifyImg,
-    github: "https://github.com/Fermain/-mollify", 
+    github: "https://github.com/Fermain/-mollify/blob/master/README.md", 
     page:"https://github.com/Fermain/-mollify"
   },
   {
@@ -31,7 +31,7 @@ export const myWork = [
     "This website is created using HTML, Bootstrap and JavaScript." +
      "The content is received from a NorOff API.", 
     img: bidonmeImg,
-    github: "https://github.com/Jenfer93/Semester-Project2", 
+    github: "https://github.com/Jenfer93/Semester-Project2/blob/main/README.md", 
     page:"https://regal-kheer-f50aa3.netlify.app/"
   },
   {
