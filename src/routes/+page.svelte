@@ -6,6 +6,7 @@
   import Footer from "../lib/components/Footer.svelte";
   import About from "../lib/components/About.svelte";
   import Skills from "../lib/components/Skills.svelte";
+  import Contact from "../lib/components/Contact.svelte";
 </script>
 
 <main>
@@ -14,6 +15,7 @@
   <Main/>
   <About/>
   <Skills/>
+  <Contact/>
   <Footer/>
 </main>
 

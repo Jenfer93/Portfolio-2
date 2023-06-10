@@ -12,7 +12,6 @@
 <style lang="scss">
   footer {
     margin: var(--spacing-null);
-    margin-top: var(--spacing-l);
     background-color: var(--dark-secondary);
   }
 

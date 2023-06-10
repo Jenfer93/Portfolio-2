@@ -1,3 +1,6 @@
+//font
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Gelasio&display=swap');
+
 //Gradent background color mixin
 $list: var(--secondary), var(--dark-secondary);
 @mixin gradient($direction, $list) { 
@@ -7,6 +10,7 @@ $list: var(--secondary), var(--dark-secondary);
   background-image: linear-gradient($direction, $list);  
 }
 
+//Standard styles to body main and all 
 body {
   margin: var(--spacing-null); 
 }
@@ -15,9 +19,16 @@ main {
   @include gradient(to bottom right, $list);
   margin: var(--spacing-null); 
   min-height: 100vh;
-  color: var(--primary)
+  color: var(--primary);
+  scroll-behavior: smooth;
 }
 
+* {
+  font-family: 'Cardo', serif;
+}
+
+
+//setting a standard style to a tags
 a {
 	text-decoration: none;
   color: var(--primary);
@@ -25,6 +36,13 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+
+//headings
+h1, h2, h3, h4 {
+  font-family: 'Gelasio', serif;
+  font-weight: var(--font-style);
 }
 
 h3{
@@ -36,10 +54,16 @@ h4{
   margin: var(--spacing-xs);
 }
 
+
+
+//Setting a standard to margin on ps'
 p{
   margin: var(--spacing-xs);
 }
 
+
+
+//removing styles to lists
 ul{
   list-style: none;
   margin: 0;
