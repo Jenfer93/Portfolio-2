@@ -1,5 +1,5 @@
 <div id="contact">
-  <h5>Contact me!</h5>
+  <h6>Contact me!</h6>
   <p>I would love to hear from you!</p>
   <p>Feel free to reach out to me on one of the options below</p>
 </div>
@@ -17,7 +17,7 @@
     justify-content: center;
   }
 
-  h5{
+  h6{
     font-size: var(--font-size-l);
     text-align: center;
     margin: 0;
