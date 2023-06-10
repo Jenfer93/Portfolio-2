@@ -8,7 +8,7 @@
         <a class="button" href="#contact">Contact me</a>
       </li>
       <li >
-        <a class="myWorkButton" href="#myWork">My work</a>
+        <a class="button" href="#myWork">My work</a>
       </li>
     </ul>
   </nav>

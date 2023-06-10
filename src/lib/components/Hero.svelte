@@ -38,7 +38,7 @@ import Down from '../images/1492533501-arrow-30_83308.svg';
     img {
       width: 50px;
       height: 50px;
-      animation: 4s linear infinite 5s bounce;
+      animation: 2s linear infinite 0s bounce;
     }
 
     @keyframes bounce {

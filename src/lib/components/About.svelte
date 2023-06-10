@@ -1,7 +1,5 @@
-<div>
-  
-  <div class="text">
-    <h5 id="about">Hi I'm Jenny!</h5>
+<div id="about" class="text">
+    <h5>Hi I'm Jenny!</h5>
     <p>I am a front end developer living in Norway. I started this journey to become a Front end developer after
       working in hopitality for several years. I have a bachelors degree in Marketing and Management towards tourims 
       industries. Which contributes to the marketing side of my front end journey. 
@@ -13,15 +11,13 @@
       and my skills.
     </p>
   </div>
-</div>
 
 <style lang="scss">
-  div{
-    margin: auto;
-    margin-top: var(--spacing-m);
-  }
 
   .text{
+    margin: auto;
+    margin-top: var(--spacing-xxl);
+    padding-bottom: var(--spacing-m);
     background-color: var(--dark-secondary);
     width: 100%;
     display: flex;
