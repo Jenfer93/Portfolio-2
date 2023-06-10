@@ -2,10 +2,10 @@
   <nav>
     <ul>
       <li>
-        <a class="button" href="#about">About me</a>
+        <a class="button" href="#about">About</a>
       </li>
       <li>
-        <a class="button" href="#contact">Contact me</a>
+        <a class="button" href="#contact">Contact</a>
       </li>
       <li >
         <a class="button" href="#myWork">My work</a>
