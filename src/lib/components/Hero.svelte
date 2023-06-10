@@ -7,7 +7,7 @@ import Down from '../images/1492533501-arrow-30_83308.svg';
   <h2>Jenny Feragen</h2>
   <p>
     Scroll down to learn more <br>
-    <img src={Down} alt="down arrow">
+    <a href="#myWork"><img src={Down} alt="down arrow"></a>
   </p>
 </div>
 
