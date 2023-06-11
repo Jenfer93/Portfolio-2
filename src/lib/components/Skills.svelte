@@ -97,4 +97,12 @@
     margin-top: var(--spacing-xxxs)
   }
 
+  img:hover {
+    transform: rotate(180deg); 
+  }
+
+  img:hover {
+    transition: 0.7s;
+  }
+
  </style>

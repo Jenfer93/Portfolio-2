@@ -61,11 +61,11 @@
     flex-direction: column;
     justify-content:space-between;
     box-shadow: 6px -2px 20px -7px rgba(1,21,19,0.50);
-    transition: ease 0.5s;
+    transition: all ease 0.5s;
   }
 
   .card:hover {
-    box-shadow: 6px -2px 20px -7px rgba(1,21,19,0.90);
+    box-shadow: 6px -2px 20px -7px rgba(1,21,19,1);
   }
 
   @media only screen and (max-width: 600px){

@@ -20,12 +20,27 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		overflow: hidden;
 	}
 
 	h1 {
 		font-size: var(--font-size-xxxl);
 		margin: var(--spacing-null);
+		animation: 1s slide-up; 
 	}
+
+	@keyframes slide-up {
+		from {
+			margin-top: 100vw;
+			height: 300%; 
+		}
+
+		to {
+			margin-top: 0%;
+			height: 100%;
+		}
+	}
+
 
 	h2 {
 		font-size: var(--font-size-xl);
@@ -39,6 +54,7 @@
 		width: 50px;
 		height: 50px;
 		animation: 2s linear infinite 0s bounce;
+		filter: invert(96%) sepia(7%) saturate(1005%) hue-rotate(315deg) brightness(101%) contrast(90%);
 	}
 
 	@keyframes bounce {

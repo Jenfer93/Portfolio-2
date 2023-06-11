@@ -4,7 +4,7 @@
       working in hopitality for several years. I have a bachelors degree in Marketing and Management towards tourims 
       industries. Which contributes to the marketing side of my front end journey. 
     </p>
-    <p>My front end journey started at Noroff School of technology adn digital media, as an online student.
+    <p>This journey started at Noroff School of technology and digital media, as an online student.
       And is still being written! 
       <br/>
       I can't wait to show you more of my work as I continue to develop myself
@@ -37,6 +37,5 @@
     padding: var(--spacing-m);
     margin: auto;
   }
-
 
 </style>
