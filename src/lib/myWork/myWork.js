@@ -19,7 +19,8 @@ export const myWork = [
     title:"Mollify", 
     descrition:"A team project, where I've made contributions to aspects like the chat window "+
     "and callouts."+
-    "The project is a LMS system build with SvelteKit, Typescript, Tailwind, Skeleton and some Sass", 
+    "The project is a LMS system build with SvelteKit, Typescript, Tailwind, Skeleton and some Sass. "+
+    "This project is not live yet", 
     img: mollifyImg,
     github: "https://github.com/Fermain/-mollify/blob/master/README.md", 
     page:"https://github.com/Fermain/-mollify"
