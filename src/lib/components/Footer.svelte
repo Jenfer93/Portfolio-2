@@ -6,6 +6,9 @@
     <li>
       <a class="button" href="https://github.com/Jenfer93">GitHub</a>
     </li>
+    <li>
+      <a class="button" href="mailto:jenny@feragen.no">E-mail</a>
+    </li>
   </ul>
 </footer>
 
